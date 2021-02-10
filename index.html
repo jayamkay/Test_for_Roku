@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test for Roku</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body onload="showElements()">
+
+    <aside id="divForList">
+      <div id="startList" tabindex = "-1"></div>
+    </aside>
+
+    <aside id="divForButton">
+      <button id="addButton"type="button" name="button" onclick="ButtonAdd_Screen1()" tabindex = "-1">ADD</button>
+    </aside>
+
+    <div id="Screen_2">
+      <input type="text" id="textField" value="" tabindex = "-1"><br>
+      <button id="addButton2"type="button" name="button" onclick="ButtonAdd_Screen2()" tabindex = "-1">ADD</button>
+      <button id="cancelButton"type="button" name="button" onclick="ButtonCancel()" tabindex = "-1">Cancel</button>
+    </div>
+
+  </body>
+</html>
